@@ -32,10 +32,9 @@ h2 {
 		display: inline-block;
 		margin: 0 auto;
 		transition: all 1s;
-		
 
-		&:hover {
-			background-color: rgba(0,255,153, .5);
+		&:hover, &:active {
+			background-color: rgba(0,255,153, .2);
 			cursor: pointer;
 		}
 	}

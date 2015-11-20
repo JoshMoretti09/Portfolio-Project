@@ -5496,6 +5496,7 @@ nav li {
   display: inline-block;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
 }
 
 /*Header Styling*/
@@ -5567,11 +5568,17 @@ body {
   font-size: 2em;
 }
 
-.about-button {
+.about-button,
+.about-button:link,
+.about-button:visited {
   font-size: 2em;
   color: #fff;
 }
-.about-button:hover {
+.about-button:hover, .about-button:active,
+.about-button:link:hover,
+.about-button:link:active,
+.about-button:visited:hover,
+.about-button:visited:active {
   color: #DDDDDD;
 }
 
@@ -5583,7 +5590,7 @@ body {
   margin-bottom: 2em;
 }
 .about-wrapper .main-title {
-  font-size: 2em;
+  font-size: 3.5em;
   text-align: center;
   font-family: 'Shadows Into Light', cursive;
   padding: 0;
@@ -5595,6 +5602,9 @@ body {
 .about-wrapper .main-content {
   padding: 0;
   margin: 0;
+}
+.about-wrapper p {
+  font-size: 20px;
 }
 
 .about-img {
@@ -5643,6 +5653,8 @@ body {
   font-size: 4em;
   padding: 0;
   margin: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
   color: #FFFFFF;
   font-weight: bold;
 }
@@ -5656,6 +5668,7 @@ body {
   float: left;
   width: 100%;
   text-align: center;
+  padding-bottom: 20px;
 }
 @media all and (min-width: 800px) {
   .projects-container {
@@ -5695,6 +5708,7 @@ body {
 }
 
 .subtext {
+  font-size: 20px;
   color: #FFFFFF;
   font-weight: bold;
   text-align: center;
@@ -5723,6 +5737,15 @@ body {
 #github .github-icon:hover {
   color: white;
 }
+#github p {
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+  margin-top: 1em;
+  font-family: 'Bitter', serif;
+}
 
 .main-footer {
   background-color: #BDAA48;
@@ -5732,7 +5755,7 @@ body {
   padding-top: 1em;
   padding-bottom: 1em;
   border-top: 5px solid black;
-  font-family: 'Droid Sans', sans-serif;
+  font-family: 'Bitter', serif;
 }
 .main-footer a {
   color: black;

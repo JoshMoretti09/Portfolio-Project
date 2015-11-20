@@ -27,8 +27,8 @@ h2 {
     display: inline-block;
     margin: 0 auto;
     transition: all 1s; }
-    .alphabet span:hover {
-      background-color: rgba(0, 255, 153, 0.5);
+    .alphabet span:hover, .alphabet span:active {
+      background-color: rgba(0, 255, 153, 0.2);
       cursor: pointer; }
 
 span {
