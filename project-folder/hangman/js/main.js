@@ -68,7 +68,7 @@ HANG.hang = function(word){
 			$('#js-word').empty();
 			$('#js-letter-picker').empty();
 			HANG.guesses = 0;
-			HANG.hang('bastard')
+			HANG.hang('applesauce')
 		}
 			
 
