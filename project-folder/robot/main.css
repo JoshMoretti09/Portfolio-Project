@@ -28,9 +28,6 @@
  }
 
 .head {
-	/*-webkit-animation: blink .5s infinite;
-  	-moz-animation: blink .5s infinite;
-  	animation: blink .5s infinite;*/
 	background: -webkit-radial-gradient(circle, red 15%, transparent 40%), #AAAAAA;
 	background: -moz-radial-gradient(circle, red 15%, transparent 40%), #AAAAAA;
 	background: radial-gradient(circle, red 15%, transparent 40%), #AAAAAA;
@@ -196,18 +193,5 @@
 	z-index: -1;
 }
 
-/*.foot {
-	height: 40px;
-	width: 40px;
-	background-color: #AAAAAA;
-	background: radial-gradient(circle, black 15%, transparent 40%), #AAAAAA;
-	border-radius: 30px;
-	border: 15px solid #111111;
-	position: relative;
-  	left:110px;
-  	top: -10px;
-  	z-index: -1;
-}
-*/
 
 
