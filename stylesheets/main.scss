@@ -48,12 +48,16 @@ body {
 }
 
 @keyframes images {
-	45% {
+	35% {
 		background-image: url('https://unsplash.it/1280/1080?image=2');
 	}
 
-	85% {
+	55% {
 		background-image: url('https://unsplash.it/1280/1080?image=3');
+	}
+
+	85% {
+		background-image: url('https://unsplash.it/1280/1080?image=4');
 	}
 }
 
@@ -63,7 +67,7 @@ body {
 	text-align: center;
 	line-height: 1.25;
 	color: #fff;
-	margin-top: 100px;
+	margin-top: 200px;
 	position: relative;
 	z-index: 100;
 }
@@ -94,7 +98,7 @@ body {
 //ABOUT SECTION STYLE
 .about-wrapper{
 	position: relative;
-	background-color: #99BA04;
+	background-color: #000080;
 	border-bottom: 5px solid black;
 	border-top: 5px solid black;
 	padding-bottom: 1em;
@@ -162,7 +166,7 @@ body {
 
 //Projects section style
 #projects {
-	background-color: #99BA04;
+	background-color: #000080;
 	min-width: 100%;
 	padding-bottom: 1em;
 	border-top: 5px solid black;
@@ -247,7 +251,7 @@ body {
 //GITHUB SECTION STYLE 
 #github {
 	min-width: 100%;
-	background-color: #99BA04;
+	background-color: #000080;
 	padding-top: 2em;
 	padding-bottom: 2em;
 	margin-bottom: 2em;
@@ -284,7 +288,7 @@ body {
 //FOOTER
 
 .main-footer {
-	background-color: #BDAA48;
+	background-color: #808000;
 	text-align: center;
 	color: black;
 	margin: 0;
@@ -302,10 +306,6 @@ body {
 
 		&:hover {
 			color: #fff;
-			-webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
 		}
 	}
 }
