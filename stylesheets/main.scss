@@ -14,12 +14,20 @@
 
 
 body {
-	background-color: #D1D1D1;
+	//background-color: #D1D1D1;
 	margin: 0;
 }
 
 //Jumbotron section
 .jumbomine {
+    // background-image: linear-gradient( rgba(0, 50, 100, 0.5), rgba(0, 0, 0, 0.7) ), url("../assets/img/pic.jpg");
+    // width: 100%;
+    // overflow: hidden;
+    // margin: 0 auto;
+    // background-position: center center;
+    // height: 500px;
+    // text-align: center;
+
 	//background-image: url('https://unsplash.it/1440/1080?image=2'); 
 	// background-repeat: no-repeat;
 	// background-size: cover;
@@ -37,7 +45,7 @@ body {
   		left: 0;
   		bottom: 0;
   		right: 0;
-  		background-image: url('https://unsplash.it/1280/1080?image=1'); 
+  		background-image: url('https://unsplash.it/1280/1080?image=2'); 
   		background-repeat: no-repeat;
 		background-size: cover;
   		min-width: 100%;
@@ -47,19 +55,19 @@ body {
   	}
 }
 
-@keyframes images {
-	35% {
-		background-image: url('https://unsplash.it/1280/1080?image=2');
-	}
+// @keyframes images {
+// 	35% {
+// 		background-image: url('https://unsplash.it/1280/1080?image=2');
+// 	}
 
-	55% {
-		background-image: url('https://unsplash.it/1280/1080?image=3');
-	}
+// 	55% {
+// 		background-image: url('https://unsplash.it/1280/1080?image=3');
+// 	}
 
-	85% {
-		background-image: url('https://unsplash.it/1280/1080?image=4');
-	}
-}
+// 	85% {
+// 		background-image: url('https://unsplash.it/1280/1080?image=4');
+// 	}
+// }
 
 
 .jumbo-content {
@@ -98,7 +106,8 @@ body {
 //ABOUT SECTION STYLE
 .about-wrapper{
 	position: relative;
-	background-color: #000080;
+	//background-color: #000080;
+	background-color: rgba(46,46,46,0.92);
 	border-bottom: 5px solid black;
 	border-top: 5px solid black;
 	padding-bottom: 1em;
@@ -112,7 +121,7 @@ body {
 	 	padding: 0;
 	 	margin: 0;
 	 	margin-bottom: 1em;
-	 	color: #FFFFFF;
+	 	color: #0CBBD7;
 	 	font-weight: bold;
 	}
 
@@ -139,6 +148,24 @@ body {
 	text-align: center;
 	width: 70%;
 }
+.list-container{
+	display: flex;
+	//flex-wrap: wrap;
+	-webkit-justify-content: center; /* Safari */
+  	justify-content:         center;
+	//justify-content: space-around;
+}
+
+.main-list {
+	list-style: none;
+	line-height: 2;
+}
+
+.icon {
+	font-size: 2em;
+}
+
+
 //END ABOUT SECTION STYLE
 
 //slide show style
@@ -166,7 +193,8 @@ body {
 
 //Projects section style
 #projects {
-	background-color: #000080;
+	//background-color: #000080;
+	background-color: rgba(46,46,46,0.92);
 	min-width: 100%;
 	padding-bottom: 1em;
 	border-top: 5px solid black;
@@ -180,7 +208,7 @@ body {
 	 	margin: 0;
 	 	margin-top: 1em;  
 	 	margin-bottom: 1em;
-	 	color: #FFFFFF;
+	 	color: #0CBBD7;
 	 	font-weight: bold;
 
 	}
@@ -233,9 +261,9 @@ body {
 	}
 }
 
-.hangman {
-	min-height:300px;
-}
+// .hangman {
+// 	min-height:300px;
+// }
 
 .subtext {
 	font-size: 20px;
@@ -251,7 +279,7 @@ body {
 //GITHUB SECTION STYLE 
 #github {
 	min-width: 100%;
-	background-color: #000080;
+	background-color: rgba(46,46,46,0.92);
 	padding-top: 2em;
 	padding-bottom: 2em;
 	margin-bottom: 2em;
@@ -263,7 +291,7 @@ body {
 	font-family: 'Droid Sans', sans-serif; 
 	.github-icon {
 		font-size: 100px;
-		color:#FF4136;
+		color:#0CBBD7;
 
 		&:hover {
 			color: white;
@@ -288,7 +316,8 @@ body {
 //FOOTER
 
 .main-footer {
-	background-color: #808000;
+	//background-color: #808000;
+	background-color: #D1D1D1;
 	text-align: center;
 	color: black;
 	margin: 0;

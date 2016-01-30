@@ -4216,12 +4216,10 @@ nav li {
   overflow: auto;
   position: fixed;
   z-index: 201;
-  background: #808000;
-  border-bottom: 5px solid black;
-  border-radius: 10px; }
+  background: #252728; }
   .nav-wrapper a {
     text-decoration: none;
-    color: black;
+    color: #0CBBD7;
     margin: 10px; }
     .nav-wrapper a:hover {
       color: #fff; }
@@ -4240,7 +4238,6 @@ nav li {
       font-size: 3em; } }
 
 body {
-  background-color: #D1D1D1;
   margin: 0; }
 
 .jumbomine {
@@ -4255,7 +4252,7 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-    background-image: url("https://unsplash.it/1280/1080?image=1");
+    background-image: url("https://unsplash.it/1280/1080?image=2");
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 100%;
@@ -4263,13 +4260,6 @@ body {
     animation: images 10s infinite;
     overflow: auto; }
 
-@keyframes images {
-  35% {
-    background-image: url("https://unsplash.it/1280/1080?image=2"); }
-  55% {
-    background-image: url("https://unsplash.it/1280/1080?image=3"); }
-  85% {
-    background-image: url("https://unsplash.it/1280/1080?image=4"); } }
 .jumbo-content {
   font-family: 'Droid Sans', sans-serif;
   text-align: center;
@@ -4301,7 +4291,7 @@ body {
 
 .about-wrapper {
   position: relative;
-  background-color: #000080;
+  background-color: rgba(46, 46, 46, 0.92);
   border-bottom: 5px solid black;
   border-top: 5px solid black;
   padding-bottom: 1em;
@@ -4314,7 +4304,7 @@ body {
     padding: 0;
     margin: 0;
     margin-bottom: 1em;
-    color: #FFFFFF;
+    color: #0CBBD7;
     font-weight: bold; }
   .about-wrapper .main-content {
     padding: 0;
@@ -4334,6 +4324,19 @@ body {
   text-align: center;
   width: 70%; }
 
+.list-container {
+  display: flex;
+  -webkit-justify-content: center;
+  /* Safari */
+  justify-content: center; }
+
+.main-list {
+  list-style: none;
+  line-height: 2; }
+
+.icon {
+  font-size: 2em; }
+
 .slideshow {
   margin: 0px auto;
   height: 500px;
@@ -4351,7 +4354,7 @@ body {
   margin-bottom: 2em; }
 
 #projects {
-  background-color: #000080;
+  background-color: rgba(46, 46, 46, 0.92);
   min-width: 100%;
   padding-bottom: 1em;
   border-top: 5px solid black;
@@ -4364,7 +4367,7 @@ body {
     margin: 0;
     margin-top: 1em;
     margin-bottom: 1em;
-    color: #FFFFFF;
+    color: #0CBBD7;
     font-weight: bold; }
 
 .projects-container {
@@ -4401,9 +4404,6 @@ body {
     -moz-box-shadow: -4px 11px 72px 9px white;
     box-shadow: -4px 11px 72px 9px white; }
 
-.hangman {
-  min-height: 300px; }
-
 .subtext {
   font-size: 20px;
   color: #FFFFFF;
@@ -4415,7 +4415,7 @@ body {
 
 #github {
   min-width: 100%;
-  background-color: #000080;
+  background-color: rgba(46, 46, 46, 0.92);
   padding-top: 2em;
   padding-bottom: 2em;
   margin-bottom: 2em;
@@ -4427,7 +4427,7 @@ body {
   font-family: 'Droid Sans', sans-serif; }
   #github .github-icon {
     font-size: 100px;
-    color: #FF4136; }
+    color: #0CBBD7; }
     #github .github-icon:hover {
       color: white; }
   #github p {
@@ -4440,7 +4440,7 @@ body {
     font-family: 'Bitter', serif; }
 
 .main-footer {
-  background-color: #808000;
+  background-color: #D1D1D1;
   text-align: center;
   color: black;
   margin: 0;
