@@ -45,7 +45,7 @@ body {
   		left: 0;
   		bottom: 0;
   		right: 0;
-  		background-image: url('https://unsplash.it/1280/1080?image=2'); 
+  		background-image: url('https://unsplash.it/1280/1080?image=4'); 
   		background-repeat: no-repeat;
 		background-size: cover;
   		min-width: 100%;
@@ -74,6 +74,7 @@ body {
 	font-family: 'Droid Sans', sans-serif;
 	text-align: center;
 	line-height: 1.25;
+	//color: #0CBBD7;
 	color: #fff;
 	margin-top: 200px;
 	position: relative;
@@ -95,7 +96,7 @@ body {
 .about-button:link,
 .about-button:visited {
 	font-size: 2em;
-	color: #fff;
+	color: #0CBBD7;
 
 	&:hover,
 	&:active {

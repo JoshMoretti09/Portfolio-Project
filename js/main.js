@@ -51,6 +51,6 @@ $(document).on('ready', function(){
 
 	var autoplay = setInterval(function(){
 		doSlides('next');
-	},3000)
+	},5000)
 
 });

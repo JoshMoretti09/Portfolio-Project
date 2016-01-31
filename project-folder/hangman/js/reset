@@ -1,8 +1,0 @@
-HANG.reset = function(){
-			$('js-word').empty();
-			$('js-letter-picker').empty();
-			HANG.guesses = 0;
-			HANG.hang('Animal')
-			$('#reset').on('click', function(){
-				HANG.reset()
-			});
